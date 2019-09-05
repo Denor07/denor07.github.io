@@ -1,25 +1,24 @@
 body {
-    margin: 0;
-    font-family:Raleway,Trebuchet MS,sans-serif;
+  background-color: #7FFFD4;
 }
-p, ul {
-    text-align: justify;
+
+h1 {
+  color: green;
+  text-align: justify;
 }
-.the-entire-cv{
-    margin: 1.2em auto 5em;
-    color: #000;
-    background-color: #fff;
-    max-width: 200mm;
-    font-size: 3.5mm;
-    line-height: 1.35em;
-    border: 1px solid grey;
-    padding: 2em;
-    box-shadow: 1px 10px 20px grey;
+h3 {
+	color: #000000;
+	text-align:center;
+	font-family: verdana;
+  font-size: 20px
 }
-.the-entire-cv table {
-    border-collapse: collapse;
-    width: 80%;
-    vertical-align: top;
+ul
+li {
+  list-style-type: square;
+}
+h2 {
+  color: white;
+  text-align: center;
 }
 .title{
     font-size: 1.3em;
@@ -76,8 +75,8 @@ label {
 
 input {
     height: 1.8em;
-    /*width: 300px;*/
-    width: 80%;
+    /*width: 100px;*/
+    width: 50%;
     border-color: #bbb;
     margin: 0.8em 0;
 }
